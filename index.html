@@ -682,9 +682,10 @@ function getOrCreateTag() {
 const CHAT_NS = 'raspberry-web-chat-v1';
 const gun = Gun([
   'https://gun-manhattan.herokuapp.com/gun',
-  'https://gun-us.herokuapp.com/gun',
-  'https://gun-eu.herokuapp.com/gun',
-  'https://gunjs.herokuapp.com/gun'
+  'https://relay.peer.ooo/gun',
+  'https://gun.defucc.me/gun',
+  'https://gun.ball.pt/gun',
+  'https://gun.staketab.com/gun'
 ]);
 const chatRef = gun.get(CHAT_NS).get('messages');
 
